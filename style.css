@@ -1,3 +1,21 @@
+body {
+  background-color: beige;
+}
+#wrapper {
+  width: auto;
+  border: 10px solid black;
+  overflow: auto;
+}
+#first {
+  width: auto;
+  float:left;
+  border: 10px solid green;
+}
+#second {
+  width: auto;
+  float: left;
+  border: 10px solid red;
+}
 .box {
   float: center;
   width: 20%;
