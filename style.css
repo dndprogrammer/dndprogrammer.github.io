@@ -1,30 +1,36 @@
-body {
-  background-color: beige;
+.container {
+  width: 80%;
+  left: 20%;
+  right: 20%;
+  align-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
 }
-#wrapper {
-  width: auto;
-  border: 10px solid black;
-  overflow: auto;
+.container div {
+  padding: 10px;
+  font-size: 20px;
+  font-family: monospace;
+  text-align: left;
 }
-#first {
-  width: auto;
-  float:left;
-  border: 10px solid green;
-}
-#second {
-  width: auto;
-  float: left;
-  border: 10px solid red;
-}
-.box {
-  float: center;
-  width: 20%;
+.main-content {
+  width: 60%;
   margin: auto;
-  margin-top: 10px;
-  padding: 5px;
-  border: 2px solid brown;
+}
+.main-aside {
+  width: 40%;
+  margin: auto;
+}
+.backgroud {
   background-color: beige;
 }
-.center {
-  text-align: center;
+.footer{
+  background-color: lightgrey;
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+  position: fixed;
+  left:0 ;
+  bottom: 0;
+  width: 100%;
 }
